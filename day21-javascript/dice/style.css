@@ -1,0 +1,10 @@
+body {
+	background-color: peachpuff;
+}
+
+.die {
+	border: 2px solid black;
+	border-radius: 4px;
+	background-color: white;
+	padding: 3px 8px;
+}

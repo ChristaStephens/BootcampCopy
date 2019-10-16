@@ -1,0 +1,24 @@
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.message {
+	padding: 8px;
+	background-color: pink;
+}
+
+.message:empty {
+	display: none;
+}
+
+.secret {
+	font-family: 'Comic Sans', cursive, monospace;
+	font-size: 130%;
+}
+
+.words a {
+	vertical-align: super;
+	font-size: 80%;
+	text-decoration: none;
+}

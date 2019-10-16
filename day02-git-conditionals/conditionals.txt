@@ -1,0 +1,104 @@
+int x = 5;
+int y = 10;
+if (x > 5) {
+  y = 20;
+}
+if (y > 5) {
+  x = 20;
+}
+System.out.println(x);
+System.out.println(y);
+
+
+int a = 10;
+int b;
+if (a == 20) {
+  b = 1;
+} else {
+  b = 2;
+}
+System.out.println(a);
+System.out.println(b);
+
+
+int n = 50;
+if (n > 70) {
+  n = 100;
+} else if (n > 50) {
+  n = 101;
+} else if (n > 30) {
+  n = 102;
+} else if (n > 10) {
+  n = 103;
+}
+System.out.println(n);
+
+
+int a = 100;
+if (a % 10 == 0) {
+  a /= 10;
+  if (a < 0) {
+  	a = -a;
+  }
+}
+System.out.println(a);
+
+
+int a = 7;
+int b = 14;
+if (a > 10) {
+	if (b > 10) {
+		System.out.println("A");
+	} else {
+		System.out.println("B");
+	}
+} else {
+	if (b > 10) {
+		System.out.println("C");
+	} else {
+		System.out.println("D");
+	}
+}
+
+
+int i = 15, j = 5;
+if (i > 10 && j > 10) {
+	i += j;
+} else if (i < 10 && j < 10) {
+	i -= j;
+} else {
+	i = j;
+}
+System.out.println(i);
+System.out.println(j);
+
+
+int x = 7;
+if (x > 5) {
+  x += 5;
+}
+if (x > 10) {
+  x += 10;
+}
+if (x > 20) {
+  x += 20)
+}
+if (x > 50) {
+  x += 50)
+}
+System.out.println(x);
+
+
+String word = "Happy";
+switch (word) {
+  case "HAPPY":
+  	System.out.println("A");
+  case "Happy!":
+  	System.out.println("B");
+  case "Happy":
+  	System.out.println("C");
+  case "happy":
+  	System.out.println("D");
+  default:
+  	System.out.println("E");
+}

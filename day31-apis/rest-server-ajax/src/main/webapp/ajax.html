@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table id="table">
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Price</th>
+			<th>Taxable</th>
+		</tr>
+	</table>
+	
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>
+  	$.get("/products").then(data => {
+  		data.forEach(addProduct)
+  	});
+  	
+  	function addProduct(product) {
+  		$("#table").append(`<tr>
+  			<td>${product.id}</td>
+  			<td>${product.name}</td>
+  			<td>$${product.price.toFixed(2)}</td>
+  			<td>${product.taxable}</td>
+  		</tr>`);
+  	}
+  	
+  </script>
+</body>
+</html>

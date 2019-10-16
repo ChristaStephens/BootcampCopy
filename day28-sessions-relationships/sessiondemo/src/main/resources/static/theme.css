@@ -1,0 +1,24 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 4px 8px;
+}
+
+.theme-dark {
+	background-color: black;
+	color: white;
+}
+.theme-dark a {
+	color: white;
+}
+
+.theme-light .ball {
+	background-color: dodgerblue;
+	border-color: royalblue;
+	box-shadow: 3px 2px 4px silver;
+}
+.theme-dark .ball {
+	background-color: mintcream;
+	border-color: Gainsboro;
+	box-shadow: 3px 2px 4px #222;
+}

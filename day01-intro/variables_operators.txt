@@ -1,0 +1,76 @@
+int x = 10;
+int y = 20;
+x++;
+x = y - x;
+System.out.println(x);
+System.out.println(y);
+
+
+int a = 7;
+int b = 3;
+int c = a + b;
+a = c * b;
+c += 2;
+b = c / b;
+a++;
+System.out.println(a);
+System.out.println(b);
+System.out.println(c);
+
+
+int year = 2018;
+boolean romeo = false;
+boolean juliet = year >= 1597;
+romeo = juliet;
+boolean bliss = romeo && juliet;
+boolean woe = romeo && !juliet;
+System.out.println(romeo);
+System.out.println(juliet);
+System.out.println(bliss);
+System.out.println(woe);
+
+
+char letter = 'A';
+letter++;
+boolean question = letter == 'B';
+System.out.println(letter);
+System.out.println(question);
+
+String name = "David";
+String color = "blue";
+color = "green" + color;
+name += " W";
+name = "Hello " + name;
+System.out.println(name);
+System.out.println(color);
+
+double x = 4.0;
+double y = x * 1.5;
+x += 2;
+x /= 2.0;
+double z = y / x;
+x = x - z;
+System.out.println(x);
+System.out.println(y);
+System.out.println(z);
+
+
+int x = 3;
+int y = 4;
+y++;
+++x;
+int z = x * y;
+z = z / 2;
+System.out.println(x);
+System.out.println(y);
+System.out.println(z);
+
+
+long a = 5;
+long b = 12;
+b = b / 4;
+a = (a + b) / 2;
+b += 2;
+System.out.println(a);
+System.out.println(b);
+System.out.println(a * b);
