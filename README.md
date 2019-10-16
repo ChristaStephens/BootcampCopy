@@ -1,5 +1,6 @@
 # Java Bootcamp October 2018
 **Copy of David Wolverton & Tim Pieniazek Lesson Plan for Oct-Dec 2018 BootCamp**
+
 _Welcome to Bootcamp!_
 
 This GitHub repo is where David and Tim will share bootcamp resources with you. Below are links to some additional resources that we will talk about as the class goes on.
